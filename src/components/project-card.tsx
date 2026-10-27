@@ -34,7 +34,7 @@ export function ProjectCard({ project }: { project: Project }) {
               src={project.images[index]}
               alt={project.title}
               fill
-              className="object-cover"
+              className="object-cover object-left-top"
             />
             {project.images.length > 1 ? (
               <>

@@ -116,7 +116,11 @@
           "PostgreSQL",
           "Hexagonal architecture"
         ],
-        "images": [],
+        "images": [
+          "/projects/pagamentos-recorrentes/1.png",
+          "/projects/pagamentos-recorrentes/2.png",
+          "/projects/pagamentos-recorrentes/3.png"
+        ],
         "repoUrl": "https://github.com/personal-code-army/student-management-and-recurring-payments",
         "demoUrl": ""
       },
@@ -130,7 +134,11 @@
           "TypeScript",
           "PostgreSQL"
         ],
-        "images": [],
+        "images": [
+          "/projects/finup/1.png",
+          "/projects/finup/2.png",
+          "/projects/finup/3.png"
+        ],
         "repoUrl": "https://github.com/MardenAndradee/projeto-gestor-financeiro",
         "demoUrl": ""
       },
@@ -143,7 +151,10 @@
           "TypeScript",
           "Ollama"
         ],
-        "images": [],
+        "images": [
+          "/projects/sistema-especialista-contabilidade/1.png",
+          "/projects/sistema-especialista-contabilidade/2.png"
+        ],
         "repoUrl": "https://github.com/MardenAndradee/sistema-especialista-contabilidade",
         "demoUrl": ""
       },
@@ -156,7 +167,12 @@
           "Next.js",
           "PostgreSQL"
         ],
-        "images": [],
+        "images": [
+          "/projects/triagem/1.png",
+          "/projects/triagem/2.png",
+          "/projects/triagem/3.png",
+          "/projects/triagem/4.png"
+        ],
         "repoUrl": "https://github.com/MardenAndradee/health-scheduling-system",
         "demoUrl": ""
       },
@@ -189,7 +205,7 @@
         "images": [
           "/projects/plataforma-qa/1.png",
           "/projects/plataforma-qa/2.png",
-        "/projects/plataforma-qa/3.png"
+          "/projects/plataforma-qa/3.png"
         ],
         "repoUrl": "",
         "demoUrl": ""

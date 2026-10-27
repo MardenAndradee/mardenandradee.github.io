@@ -170,7 +170,9 @@
           "Prisma",
           "PostgreSQL"
         ],
-        "images": [],
+        "images": [
+          "/projects/painel-faculdade/1.png"
+        ],
         "repoUrl": "https://github.com/MardenAndradee/painel-faculdade",
         "demoUrl": "https://painel-faculdade-web.vercel.app"
       },
@@ -184,20 +186,31 @@
           "AI",
           "Jira API"
         ],
-        "images": [],
+        "images": [
+          "/projects/plataforma-qa/1.png",
+          "/projects/plataforma-qa/2.png",
+        "/projects/plataforma-qa/3.png"
+        ],
         "repoUrl": "",
         "demoUrl": ""
       },
       {
         "title": "Atividade Atleta",
-        "description": "A ticket-selling system for running races, built with a friend, with payments integrated directly via Mercado Pago. A personal project taken from scratch to real production, serving real customers.",
+        "description": "Ticketing platform for races and sporting events, built with a friend and live in production for real organizers and athletes. Payments integrated with Mercado Pago, an organizer area and athlete profiles.",
         "tags": [
-          "Mercado Pago",
-          "Full Stack"
+          "Node.js",
+          "React",
+          "TypeScript",
+          "PostgreSQL",
+          "Mercado Pago"
         ],
-        "images": [],
+        "images": [
+          "/projects/atividade-atleta/1.png",
+          "/projects/atividade-atleta/2.png",
+          "/projects/atividade-atleta/3.png"
+        ],
         "repoUrl": "",
-        "demoUrl": ""
+        "demoUrl": "https://atividadeatleta.com.br"
       }
     ]
   },

@@ -170,7 +170,9 @@
           "Prisma",
           "PostgreSQL"
         ],
-        "images": [],
+        "images": [
+          "/projects/painel-faculdade/1.png"
+        ],
         "repoUrl": "https://github.com/MardenAndradee/painel-faculdade",
         "demoUrl": "https://painel-faculdade-web.vercel.app"
       },
@@ -184,20 +186,31 @@
           "IA",
           "Jira API"
         ],
-        "images": [],
+        "images": [
+          "/projects/plataforma-qa/1.png",
+          "/projects/plataforma-qa/2.png",
+        "/projects/plataforma-qa/3.png"
+        ],
         "repoUrl": "",
         "demoUrl": ""
       },
       {
         "title": "Atividade Atleta",
-        "description": "Sistema de venda de ingressos para corridas, desenvolvido com um amigo, com pagamentos integrados diretamente via Mercado Pago. Projeto pessoal levado do zero até produção real, atendendo clientes de verdade.",
+        "description": "Plataforma de venda de inscrições para corridas e eventos esportivos, desenvolvida com um amigo e em produção atendendo organizadores e atletas reais. Pagamentos integrados via Mercado Pago, área do organizador e perfil do atleta.",
         "tags": [
-          "Mercado Pago",
-          "Full Stack"
+          "Node.js",
+          "React",
+          "TypeScript",
+          "PostgreSQL",
+          "Mercado Pago"
         ],
-        "images": [],
+        "images": [
+          "/projects/atividade-atleta/1.png",
+          "/projects/atividade-atleta/2.png",
+          "/projects/atividade-atleta/3.png"
+        ],
         "repoUrl": "",
-        "demoUrl": ""
+        "demoUrl": "https://atividadeatleta.com.br"
       }
     ]
   },

@@ -1,7 +1,7 @@
 "use client";
 
-import { useTranslations } from "next-intl";
-import { ArrowRight, Mail } from "lucide-react";
+import { useLocale, useTranslations } from "next-intl";
+import { ArrowRight, Download, Mail } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { Reveal } from "@/components/motion/reveal";
 import { GithubIcon, LinkedinIcon } from "@/components/icons";
@@ -9,6 +9,7 @@ import { siteConfig } from "@/config/site";
 
 export function Hero() {
   const t = useTranslations("hero");
+  const locale = useLocale();
 
   return (
     <section
@@ -60,6 +61,15 @@ export function Hero() {
                 className="inline-flex items-center gap-2 rounded-full border border-border-strong px-5 py-2.5 text-sm font-medium text-foreground transition-colors hover:border-accent hover:text-accent"
               >
                 {t("ctaContact")}
+              </a>
+              <a
+                href={siteConfig.resumeUrl[locale === "en" ? "en" : "pt"]}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-full border border-border-strong px-5 py-2.5 text-sm font-medium text-foreground transition-colors hover:border-accent hover:text-accent"
+              >
+                <Download size={16} />
+                {t("ctaResume")}
               </a>
             </div>
           </Reveal>

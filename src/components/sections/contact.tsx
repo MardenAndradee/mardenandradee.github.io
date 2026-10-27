@@ -29,7 +29,7 @@ export function Contact() {
 
           <a
             href={`mailto:${siteConfig.email}`}
-            className="mt-6 inline-flex items-center gap-2 rounded-full bg-accent px-6 py-2.5 text-sm font-medium text-white transition-transform hover:-translate-y-0.5 hover:brightness-110"
+            className="mt-6 inline-flex items-center gap-2 rounded-full bg-accent-strong px-6 py-2.5 text-sm font-medium text-white transition-transform hover:-translate-y-0.5 hover:brightness-110"
           >
             <Mail size={16} />
             {t("emailCta")}

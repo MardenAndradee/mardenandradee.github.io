@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Marden Resende Andrade",
   description:
-    "Portfolio de Marden Resende Andrade, desenvolvedor de software e engenheiro de QA.",
+    "Portfólio de Marden Resende Andrade, desenvolvedor full-stack Java/Spring Boot + React/TypeScript.",
 };
 
 export default function RootLayout({

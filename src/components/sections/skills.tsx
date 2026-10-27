@@ -38,7 +38,7 @@ export function Skills() {
                         className="inline-flex items-center gap-1.5 rounded-full border border-border bg-background px-2.5 py-1 text-xs text-muted-foreground transition-colors hover:border-border-strong hover:text-foreground"
                       >
                         {Icon ? (
-                          <Icon size={13} style={{ color: tech.color }} />
+                          <Icon size={13} style={{ color: tech.color }} aria-hidden="true" />
                         ) : null}
                         {item}
                       </span>

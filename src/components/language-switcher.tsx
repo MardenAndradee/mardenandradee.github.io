@@ -19,7 +19,7 @@ export function LanguageSwitcher() {
           className={cn(
             "rounded-full px-2.5 py-1 uppercase transition-colors",
             loc === locale
-              ? "bg-accent text-white"
+              ? "bg-accent-strong text-white"
               : "text-muted-foreground hover:text-foreground"
           )}
           aria-current={loc === locale}

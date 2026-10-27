@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Marden Resende Andrade — Software Developer & QA Engineer",
-    "description": "Portfolio of Marden Resende Andrade, software developer and QA engineer."
+    "title": "Marden Resende Andrade — Full-Stack Developer (Spring Boot + React)",
+    "description": "Portfolio of Marden Resende Andrade, a full-stack Java/Spring Boot + React/TypeScript developer with a QA background. Open to remote roles."
   },
   "nav": {
     "about": "About",
@@ -14,24 +14,33 @@
   "hero": {
     "greeting": "Hi, I'm",
     "name": "Marden Resende Andrade",
-    "role": "Software Developer & QA Engineer",
-    "tagline": "I test and build software with the same care: I work as a QA engineer (manual and automated testing) and as a full stack developer, bringing quality assurance and code together in one profile.",
+    "role": "Full-Stack Developer · Spring Boot + React",
+    "tagline": "I build web applications end to end — REST APIs in Java/Spring Boot and interfaces in React/TypeScript. From QA I bring the habit of writing testable code and thinking about edge cases before shipping.",
     "ctaProjects": "View projects",
     "ctaContact": "Get in touch",
     "ctaResume": "Download CV",
-    "available": "Available for freelance"
+    "available": "Open to remote roles"
   },
   "about": {
     "eyebrow": "About me",
     "title": "Who I am",
     "paragraphs": [
-      "I started programming in college, studying Computer Science, and quickly moved from theory into practice: I built personal and academic projects in Java, C, C++, and Pascal just to really understand how software is built, without shortcuts from AI. That's where programming logic became second nature to me — and also where I discovered I enjoy both building systems and making sure they actually work.",
-      "Today I work as a QA engineer on a system built entirely in Java, doing manual testing and automated testing with Python and Selenium, and in my spare time I also take on development tasks on that same system — which has given me a full view of the software lifecycle. I prefer being on the development side, especially with Java and Spring Boot, but it's as a QA engineer that I've been standing out: I've been recognized for reducing the bug rate per release and for building my own QA platform, using AI to generate test scenarios and integrating directly with Jira, now adopted by my team."
+      "I'm a full-stack developer focused on Java/Spring Boot on the back end and React/TypeScript on the front end. I started programming while studying Computer Science and quickly moved from theory into practice, building personal, academic and university-extension projects for real clients — from gathering requirements to delivery.",
+      "I started my career as a Java developer and today I work as a Mid-level QA Analyst at GFSIS, where I also take on development tasks in the same Java system. That combination gives me a full view of the software lifecycle: I reduced the bug rate per release and built my own QA platform, with AI generating test scenarios and Jira integration, now adopted by my team. Now I'm looking for a remote developer role, where that focus on quality turns into better code."
     ],
     "stats": [
-      { "value": "4+", "label": "Years of experience" },
-      { "value": "6+", "label": "Projects delivered" },
-      { "value": "3+", "label": "Certifications" }
+      {
+        "value": "3+",
+        "label": "Years of experience"
+      },
+      {
+        "value": "6+",
+        "label": "Projects delivered"
+      },
+      {
+        "value": "4",
+        "label": "Courses completed"
+      }
     ]
   },
   "skills": {
@@ -41,23 +50,52 @@
     "categories": [
       {
         "name": "Languages",
-        "items": ["Java", "TypeScript", "JavaScript", "Python"]
-      },
-      {
-        "name": "Front-end",
-        "items": ["React", "HTML", "CSS"]
+        "items": [
+          "Java",
+          "TypeScript",
+          "JavaScript",
+          "Python"
+        ]
       },
       {
         "name": "Back-end",
-        "items": ["Spring Boot", "Node.js"]
+        "items": [
+          "Spring Boot",
+          "Spring Security",
+          "JPA / Hibernate",
+          "Node.js"
+        ]
+      },
+      {
+        "name": "Front-end",
+        "items": [
+          "React",
+          "Next.js",
+          "Tailwind CSS",
+          "HTML",
+          "CSS"
+        ]
+      },
+      {
+        "name": "Database & DevOps",
+        "items": [
+          "PostgreSQL",
+          "Docker",
+          "GitHub Actions",
+          "Git",
+          "GitHub"
+        ]
       },
       {
         "name": "QA & Testing",
-        "items": ["Selenium", "Automated testing", "Manual testing"]
-      },
-      {
-        "name": "Tools & DevOps",
-        "items": ["Git", "GitHub", "Jira"]
+        "items": [
+          "JUnit",
+          "Cypress",
+          "Selenium",
+          "Automated testing",
+          "Manual testing",
+          "Jira"
+        ]
       }
     ]
   },
@@ -69,33 +107,83 @@
     "viewDemo": "View demo",
     "items": [
       {
-        "title": "Plataforma QA",
-        "description": "A platform I built to centralize and document all the manual tests I run as a QA engineer. It uses AI to automatically generate test scenarios and integrates directly with Jira — creating subtasks, marking them as done, and more — removing repetitive manual work. It was praised by my lead and teammates.",
-        "tags": ["Java", "Spring Boot", "AI", "Jira API", "QA"],
+        "title": "Student Management & Recurring Payments",
+        "description": "Student, plan, subscription and payment management for a muay thai gym, built in a university-extension project for a real client. Hexagonal back-end with JWT auth, encrypted CPF, Flyway migrations and a scheduled job for overdue payments.",
+        "tags": [
+          "Spring Boot",
+          "Java 21",
+          "Next.js",
+          "PostgreSQL",
+          "Hexagonal architecture"
+        ],
         "images": [],
-        "repoUrl": "",
+        "repoUrl": "https://github.com/personal-code-army/student-management-and-recurring-payments",
         "demoUrl": ""
       },
       {
         "title": "FinUp",
-        "description": "A personal finance management system, built as a university extension project for a real client. I was responsible for full stack development and the full delivery cycle: requirements gathering with the client, demos, and testing.",
-        "tags": ["Spring Boot", "React", "TypeScript"],
+        "description": "Personal expense manager built in a university-extension project for a real client: JWT auth, password recovery by e-mail, installments, spending charts, Excel export and a Swagger-documented API. I worked on the back end, database and front-end integration.",
+        "tags": [
+          "Spring Boot",
+          "Spring Security",
+          "React",
+          "TypeScript",
+          "PostgreSQL"
+        ],
         "images": [],
-        "repoUrl": "",
+        "repoUrl": "https://github.com/MardenAndradee/projeto-gestor-financeiro",
         "demoUrl": ""
       },
       {
         "title": "Accounting Expert System",
-        "description": "An expert system built as a university extension project to help a company understand its tax situation. A real-client project, including delivery, demos, and testing following standard software engineering practices.",
-        "tags": ["Java", "Expert Systems"],
+        "description": "Expert system that guides a company through adaptive questions and produces a tax-regime and obligations report with recommendations, alerts, a local-AI summary (Llama 3 via Ollama) and PDF export. University-extension project with a real client.",
+        "tags": [
+          "Spring Boot",
+          "Next.js",
+          "TypeScript",
+          "Ollama"
+        ],
         "images": [],
-        "repoUrl": "",
+        "repoUrl": "https://github.com/MardenAndradee/sistema-especialista-contabilidade",
         "demoUrl": ""
       },
       {
-        "title": "Recurring Payments Management",
-        "description": "A system to manage recurring payments for a Muay Thai gym, built as a university extension project for a real client, with deliveries and testing closely followed by the client.",
-        "tags": ["Java", "Payments"],
+        "title": "Health Center Triage System",
+        "description": "My undergraduate thesis (in progress): a web system that classifies patients by urgency level and automatically orders the care queue, helping health professionals prioritize the most severe cases.",
+        "tags": [
+          "Spring Boot",
+          "Java 21",
+          "Next.js",
+          "PostgreSQL"
+        ],
+        "images": [],
+        "repoUrl": "https://github.com/MardenAndradee/health-scheduling-system",
+        "demoUrl": ""
+      },
+      {
+        "title": "Painel Faculdade",
+        "description": "Academic organization platform: courses, assignments, exams, grades, spaced-repetition flashcards and an auto-generated study schedule, integrated with Google Classroom and Google Calendar. Full-stack monorepo in production.",
+        "tags": [
+          "Next.js",
+          "React",
+          "Express",
+          "Prisma",
+          "PostgreSQL"
+        ],
+        "images": [],
+        "repoUrl": "https://github.com/MardenAndradee/painel-faculdade",
+        "demoUrl": "https://painel-faculdade-web.vercel.app"
+      },
+      {
+        "title": "QA Platform",
+        "description": "A platform I built to centralize and document the tests I run as a QA analyst. It uses AI (Claude) to generate test scenarios and integrates with Jira — creating subtasks, marking them as done and more. Adopted by my team. Private code (internal use).",
+        "tags": [
+          "Next.js",
+          "Express",
+          "Prisma",
+          "AI",
+          "Jira API"
+        ],
         "images": [],
         "repoUrl": "",
         "demoUrl": ""
@@ -103,7 +191,10 @@
       {
         "title": "Atividade Atleta",
         "description": "A ticket-selling system for running races, built with a friend, with payments integrated directly via Mercado Pago. A personal project taken from scratch to real production, serving real customers.",
-        "tags": ["Mercado Pago", "Full Stack"],
+        "tags": [
+          "Mercado Pago",
+          "Full Stack"
+        ],
         "images": [],
         "repoUrl": "",
         "demoUrl": ""
@@ -122,14 +213,24 @@
         "company": "GFSIS",
         "current": true,
         "description": "I joined as a Junior QA Analyst, doing manual and automated testing on a system built in Java. I stood out in the role — reducing the bug rate per release and building my own AI-powered QA platform integrated with Jira — and was promoted to Mid-level. I also started taking on development work on the same system, combining testing and code in my day to day.",
-        "tags": ["QA", "Selenium", "Automated testing", "Java", "Spring Boot"]
+        "tags": [
+          "QA",
+          "Selenium",
+          "Automated testing",
+          "Java",
+          "Spring Boot"
+        ]
       },
       {
         "period": "2023 — 2024",
         "role": "Junior Desktop Software Developer",
         "company": "Sommar Consultoria",
         "description": "My first professional experience as a developer. I built and maintained desktop applications in Java, putting into practice the programming logic and software architecture I was learning in college.",
-        "tags": ["Java", "Desktop", "OOP"]
+        "tags": [
+          "Java",
+          "Desktop",
+          "OOP"
+        ]
       }
     ]
   },

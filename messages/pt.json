@@ -125,40 +125,6 @@
         "demoUrl": ""
       },
       {
-        "title": "FinUp",
-        "description": "Gestor de despesas pessoais desenvolvido em projeto de extensão para um cliente real: autenticação JWT, recuperação de senha por e-mail, parcelamento, gráficos de gastos, exportação para Excel e API documentada com Swagger. Atuei no back-end, banco de dados e integração com o front.",
-        "tags": [
-          "Spring Boot",
-          "Spring Security",
-          "React",
-          "TypeScript",
-          "PostgreSQL"
-        ],
-        "images": [
-          "/projects/finup/1.png",
-          "/projects/finup/2.png",
-          "/projects/finup/3.png"
-        ],
-        "repoUrl": "https://github.com/MardenAndradee/projeto-gestor-financeiro",
-        "demoUrl": ""
-      },
-      {
-        "title": "Sistema Especialista de Contabilidade",
-        "description": "Sistema especialista que guia a empresa por perguntas adaptativas e gera um relatório de enquadramento tributário e obrigações fiscais, com recomendações, alertas, resumo por IA local (Llama 3 via Ollama) e exportação em PDF. Projeto de extensão com cliente real.",
-        "tags": [
-          "Spring Boot",
-          "Next.js",
-          "TypeScript",
-          "Ollama"
-        ],
-        "images": [
-          "/projects/sistema-especialista-contabilidade/1.png",
-          "/projects/sistema-especialista-contabilidade/2.png"
-        ],
-        "repoUrl": "https://github.com/MardenAndradee/sistema-especialista-contabilidade",
-        "demoUrl": ""
-      },
-      {
         "title": "Sistema de Triagem para Postos de Saúde",
         "description": "Meu TCC (em desenvolvimento): sistema web que classifica pacientes por nível de urgência e organiza automaticamente a fila de atendimento, ajudando profissionais da saúde a priorizar os casos mais graves.",
         "tags": [
@@ -177,20 +143,22 @@
         "demoUrl": ""
       },
       {
-        "title": "Painel Faculdade",
-        "description": "Plataforma de organização acadêmica: disciplinas, atividades, provas, notas, flashcards com repetição espaçada e cronograma de estudos gerado automaticamente, com integração ao Google Classroom e Google Calendar. Monorepo full-stack em produção.",
+        "title": "FinUp",
+        "description": "Gestor de despesas pessoais desenvolvido em projeto de extensão para um cliente real: autenticação JWT, recuperação de senha por e-mail, parcelamento, gráficos de gastos, exportação para Excel e API documentada com Swagger. Atuei no back-end, banco de dados e integração com o front.",
         "tags": [
-          "Next.js",
+          "Spring Boot",
+          "Spring Security",
           "React",
-          "Express",
-          "Prisma",
+          "TypeScript",
           "PostgreSQL"
         ],
         "images": [
-          "/projects/painel-faculdade/1.png"
+          "/projects/finup/1.png",
+          "/projects/finup/2.png",
+          "/projects/finup/3.png"
         ],
-        "repoUrl": "https://github.com/MardenAndradee/painel-faculdade",
-        "demoUrl": "https://painel-faculdade-web.vercel.app"
+        "repoUrl": "https://github.com/MardenAndradee/projeto-gestor-financeiro",
+        "demoUrl": ""
       },
       {
         "title": "Plataforma QA",
@@ -212,7 +180,7 @@
       },
       {
         "title": "Atividade Atleta",
-        "description": "Plataforma de venda de inscrições para corridas e eventos esportivos, desenvolvida com um amigo e em produção atendendo organizadores e atletas reais. Pagamentos integrados via Mercado Pago, área do organizador e perfil do atleta.",
+        "description": "Plataforma de venda de inscrições para corridas e eventos esportivos, em produção atendendo organizadores e atletas reais. Pagamentos integrados via Mercado Pago, área do organizador e perfil do atleta.",
         "tags": [
           "Node.js",
           "React",
@@ -227,6 +195,22 @@
         ],
         "repoUrl": "",
         "demoUrl": "https://atividadeatleta.com.br"
+      },
+      {
+        "title": "Painel Faculdade",
+        "description": "Plataforma de organização acadêmica: disciplinas, atividades, provas, notas, flashcards com repetição espaçada e cronograma de estudos gerado automaticamente, com integração ao Google Classroom e Google Calendar. Monorepo full-stack em produção.",
+        "tags": [
+          "Next.js",
+          "React",
+          "Express",
+          "Prisma",
+          "PostgreSQL"
+        ],
+        "images": [
+          "/projects/painel-faculdade/1.png"
+        ],
+        "repoUrl": "https://github.com/MardenAndradee/painel-faculdade",
+        "demoUrl": "https://painel-faculdade-web.vercel.app"
       }
     ]
   },

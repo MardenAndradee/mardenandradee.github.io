@@ -125,40 +125,6 @@
         "demoUrl": ""
       },
       {
-        "title": "FinUp",
-        "description": "Personal expense manager built in a university-extension project for a real client: JWT auth, password recovery by e-mail, installments, spending charts, Excel export and a Swagger-documented API. I worked on the back end, database and front-end integration.",
-        "tags": [
-          "Spring Boot",
-          "Spring Security",
-          "React",
-          "TypeScript",
-          "PostgreSQL"
-        ],
-        "images": [
-          "/projects/finup/1.png",
-          "/projects/finup/2.png",
-          "/projects/finup/3.png"
-        ],
-        "repoUrl": "https://github.com/MardenAndradee/projeto-gestor-financeiro",
-        "demoUrl": ""
-      },
-      {
-        "title": "Accounting Expert System",
-        "description": "Expert system that guides a company through adaptive questions and produces a tax-regime and obligations report with recommendations, alerts, a local-AI summary (Llama 3 via Ollama) and PDF export. University-extension project with a real client.",
-        "tags": [
-          "Spring Boot",
-          "Next.js",
-          "TypeScript",
-          "Ollama"
-        ],
-        "images": [
-          "/projects/sistema-especialista-contabilidade/1.png",
-          "/projects/sistema-especialista-contabilidade/2.png"
-        ],
-        "repoUrl": "https://github.com/MardenAndradee/sistema-especialista-contabilidade",
-        "demoUrl": ""
-      },
-      {
         "title": "Health Center Triage System",
         "description": "My undergraduate thesis (in progress): a web system that classifies patients by urgency level and automatically orders the care queue, helping health professionals prioritize the most severe cases.",
         "tags": [
@@ -177,20 +143,22 @@
         "demoUrl": ""
       },
       {
-        "title": "Painel Faculdade",
-        "description": "Academic organization platform: courses, assignments, exams, grades, spaced-repetition flashcards and an auto-generated study schedule, integrated with Google Classroom and Google Calendar. Full-stack monorepo in production.",
+        "title": "FinUp",
+        "description": "Personal expense manager built in a university-extension project for a real client: JWT auth, password recovery by e-mail, installments, spending charts, Excel export and a Swagger-documented API. I worked on the back end, database and front-end integration.",
         "tags": [
-          "Next.js",
+          "Spring Boot",
+          "Spring Security",
           "React",
-          "Express",
-          "Prisma",
+          "TypeScript",
           "PostgreSQL"
         ],
         "images": [
-          "/projects/painel-faculdade/1.png"
+          "/projects/finup/1.png",
+          "/projects/finup/2.png",
+          "/projects/finup/3.png"
         ],
-        "repoUrl": "https://github.com/MardenAndradee/painel-faculdade",
-        "demoUrl": "https://painel-faculdade-web.vercel.app"
+        "repoUrl": "https://github.com/MardenAndradee/projeto-gestor-financeiro",
+        "demoUrl": ""
       },
       {
         "title": "QA Platform",
@@ -212,7 +180,7 @@
       },
       {
         "title": "Atividade Atleta",
-        "description": "Ticketing platform for races and sporting events, built with a friend and live in production for real organizers and athletes. Payments integrated with Mercado Pago, an organizer area and athlete profiles.",
+        "description": "Ticketing platform for races and sporting events, live in production for real organizers and athletes. Payments integrated with Mercado Pago, an organizer area and athlete profiles.",
         "tags": [
           "Node.js",
           "React",
@@ -227,6 +195,22 @@
         ],
         "repoUrl": "",
         "demoUrl": "https://atividadeatleta.com.br"
+      },
+      {
+        "title": "Painel Faculdade",
+        "description": "Academic organization platform: courses, assignments, exams, grades, spaced-repetition flashcards and an auto-generated study schedule, integrated with Google Classroom and Google Calendar. Full-stack monorepo in production.",
+        "tags": [
+          "Next.js",
+          "React",
+          "Express",
+          "Prisma",
+          "PostgreSQL"
+        ],
+        "images": [
+          "/projects/painel-faculdade/1.png"
+        ],
+        "repoUrl": "https://github.com/MardenAndradee/painel-faculdade",
+        "demoUrl": "https://painel-faculdade-web.vercel.app"
       }
     ]
   },
